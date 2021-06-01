@@ -3,18 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B7CBAEF2569A3787920101A /* Pods_ijinlife_kaigai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96327994AFA9E95820D7076 /* Pods_ijinlife_kaigai.framework */; };
 		4254251326394540009578AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4254251226394540009578AF /* AppDelegate.swift */; };
 		4254251526394540009578AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4254251426394540009578AF /* SceneDelegate.swift */; };
-		4254251726394540009578AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4254251626394540009578AF /* ViewController.swift */; };
+		4254251726394540009578AF /* LifeHourglassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4254251626394540009578AF /* LifeHourglassView.swift */; };
 		4254251A26394540009578AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4254251826394540009578AF /* Main.storyboard */; };
 		4254251C26394543009578AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4254251B26394543009578AF /* Assets.xcassets */; };
 		4254251F26394543009578AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4254251D26394543009578AF /* LaunchScreen.storyboard */; };
 		4254252A26394544009578AF /* ijinlife_kaigaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4254252926394544009578AF /* ijinlife_kaigaiTests.swift */; };
 		4254253526394544009578AF /* ijinlife_kaigaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4254253426394544009578AF /* ijinlife_kaigaiUITests.swift */; };
+		4254255E2639462F009578AF /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4254255D2639462F009578AF /* FormView.swift */; };
+		42B73F648C482283ED8F9AE9 /* Pods_ijinlife_kaigai_ijinlife_kaigaiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B613547F1C5EAAAB45E19A2D /* Pods_ijinlife_kaigai_ijinlife_kaigaiUITests.framework */; };
+		D02F40E0A86601A1159FC45C /* Pods_ijinlife_kaigaiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F352AED309F79F2CF215BFB /* Pods_ijinlife_kaigaiTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E3000AF254E48B3FA16066F /* Pods-ijinlife_kaigaiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ijinlife_kaigaiTests.debug.xcconfig"; path = "Target Support Files/Pods-ijinlife_kaigaiTests/Pods-ijinlife_kaigaiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		32F6FAB39C057592D9F487FB /* Pods-ijinlife_kaigai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ijinlife_kaigai.debug.xcconfig"; path = "Target Support Files/Pods-ijinlife_kaigai/Pods-ijinlife_kaigai.debug.xcconfig"; sourceTree = "<group>"; };
 		4254250F26394540009578AF /* ijinlife_kaigai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ijinlife_kaigai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4254251226394540009578AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4254251426394540009578AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4254251626394540009578AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4254251626394540009578AF /* LifeHourglassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHourglassView.swift; sourceTree = "<group>"; };
 		4254251926394540009578AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4254251B26394543009578AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4254251E26394543009578AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		4254253026394544009578AF /* ijinlife_kaigaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ijinlife_kaigaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4254253426394544009578AF /* ijinlife_kaigaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ijinlife_kaigaiUITests.swift; sourceTree = "<group>"; };
 		4254253626394544009578AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4254255D2639462F009578AF /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		4F352AED309F79F2CF215BFB /* Pods_ijinlife_kaigaiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ijinlife_kaigaiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F33FF7140EA68A4CD25D10 /* Pods-ijinlife_kaigai-ijinlife_kaigaiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ijinlife_kaigai-ijinlife_kaigaiUITests.debug.xcconfig"; path = "Target Support Files/Pods-ijinlife_kaigai-ijinlife_kaigaiUITests/Pods-ijinlife_kaigai-ijinlife_kaigaiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A245A740DB549F0DBB3636CF /* Pods-ijinlife_kaigai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ijinlife_kaigai.release.xcconfig"; path = "Target Support Files/Pods-ijinlife_kaigai/Pods-ijinlife_kaigai.release.xcconfig"; sourceTree = "<group>"; };
+		B279B4938D2DB419FD76D884 /* Pods-ijinlife_kaigai-ijinlife_kaigaiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ijinlife_kaigai-ijinlife_kaigaiUITests.release.xcconfig"; path = "Target Support Files/Pods-ijinlife_kaigai-ijinlife_kaigaiUITests/Pods-ijinlife_kaigai-ijinlife_kaigaiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B613547F1C5EAAAB45E19A2D /* Pods_ijinlife_kaigai_ijinlife_kaigaiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ijinlife_kaigai_ijinlife_kaigaiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E1CCE68C74D86BE60E3D14 /* Pods-ijinlife_kaigaiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ijinlife_kaigaiTests.release.xcconfig"; path = "Target Support Files/Pods-ijinlife_kaigaiTests/Pods-ijinlife_kaigaiTests.release.xcconfig"; sourceTree = "<group>"; };
+		D96327994AFA9E95820D7076 /* Pods_ijinlife_kaigai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ijinlife_kaigai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7CBAEF2569A3787920101A /* Pods_ijinlife_kaigai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02F40E0A86601A1159FC45C /* Pods_ijinlife_kaigaiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B73F648C482283ED8F9AE9 /* Pods_ijinlife_kaigai_ijinlife_kaigaiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				4254252826394544009578AF /* ijinlife_kaigaiTests */,
 				4254253326394544009578AF /* ijinlife_kaigaiUITests */,
 				4254251026394540009578AF /* Products */,
+				887548DDEE2420EB6412BB37 /* Pods */,
+				BE7B1FB334282BBBCD291319 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +120,8 @@
 			children = (
 				4254251226394540009578AF /* AppDelegate.swift */,
 				4254251426394540009578AF /* SceneDelegate.swift */,
-				4254251626394540009578AF /* ViewController.swift */,
+				4254251626394540009578AF /* LifeHourglassView.swift */,
+				4254255D2639462F009578AF /* FormView.swift */,
 				4254251826394540009578AF /* Main.storyboard */,
 				4254251B26394543009578AF /* Assets.xcassets */,
 				4254251D26394543009578AF /* LaunchScreen.storyboard */,
@@ -128,6 +148,29 @@
 			path = ijinlife_kaigaiUITests;
 			sourceTree = "<group>";
 		};
+		887548DDEE2420EB6412BB37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32F6FAB39C057592D9F487FB /* Pods-ijinlife_kaigai.debug.xcconfig */,
+				A245A740DB549F0DBB3636CF /* Pods-ijinlife_kaigai.release.xcconfig */,
+				80F33FF7140EA68A4CD25D10 /* Pods-ijinlife_kaigai-ijinlife_kaigaiUITests.debug.xcconfig */,
+				B279B4938D2DB419FD76D884 /* Pods-ijinlife_kaigai-ijinlife_kaigaiUITests.release.xcconfig */,
+				1E3000AF254E48B3FA16066F /* Pods-ijinlife_kaigaiTests.debug.xcconfig */,
+				C6E1CCE68C74D86BE60E3D14 /* Pods-ijinlife_kaigaiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE7B1FB334282BBBCD291319 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D96327994AFA9E95820D7076 /* Pods_ijinlife_kaigai.framework */,
+				B613547F1C5EAAAB45E19A2D /* Pods_ijinlife_kaigai_ijinlife_kaigaiUITests.framework */,
+				4F352AED309F79F2CF215BFB /* Pods_ijinlife_kaigaiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4254253926394544009578AF /* Build configuration list for PBXNativeTarget "ijinlife_kaigai" */;
 			buildPhases = (
+				CC5B1EAB76174E08240FEEF2 /* [CP] Check Pods Manifest.lock */,
 				4254250B26394540009578AF /* Sources */,
 				4254250C26394540009578AF /* Frameworks */,
 				4254250D26394540009578AF /* Resources */,
+				5E82C1659E5DB69144CD7181 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4254253C26394544009578AF /* Build configuration list for PBXNativeTarget "ijinlife_kaigaiTests" */;
 			buildPhases = (
+				D29ED924A5DBE612A939A0A3 /* [CP] Check Pods Manifest.lock */,
 				4254252126394544009578AF /* Sources */,
 				4254252226394544009578AF /* Frameworks */,
 				4254252326394544009578AF /* Resources */,
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4254253F26394544009578AF /* Build configuration list for PBXNativeTarget "ijinlife_kaigaiUITests" */;
 			buildPhases = (
+				EAA1DFCD45DB54DF8FAFE02D /* [CP] Check Pods Manifest.lock */,
 				4254252C26394544009578AF /* Sources */,
 				4254252D26394544009578AF /* Frameworks */,
 				4254252E26394544009578AF /* Resources */,
+				54D35F83BB8A1EB96687A74C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,12 +301,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54D35F83BB8A1EB96687A74C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ijinlife_kaigai-ijinlife_kaigaiUITests/Pods-ijinlife_kaigai-ijinlife_kaigaiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ijinlife_kaigai-ijinlife_kaigaiUITests/Pods-ijinlife_kaigai-ijinlife_kaigaiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ijinlife_kaigai-ijinlife_kaigaiUITests/Pods-ijinlife_kaigai-ijinlife_kaigaiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E82C1659E5DB69144CD7181 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ijinlife_kaigai/Pods-ijinlife_kaigai-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ijinlife_kaigai/Pods-ijinlife_kaigai-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ijinlife_kaigai/Pods-ijinlife_kaigai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC5B1EAB76174E08240FEEF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ijinlife_kaigai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D29ED924A5DBE612A939A0A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ijinlife_kaigaiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA1DFCD45DB54DF8FAFE02D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ijinlife_kaigai-ijinlife_kaigaiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4254250B26394540009578AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4254251726394540009578AF /* ViewController.swift in Sources */,
+				4254255E2639462F009578AF /* FormView.swift in Sources */,
+				4254251726394540009578AF /* LifeHourglassView.swift in Sources */,
 				4254251326394540009578AF /* AppDelegate.swift in Sources */,
 				4254251526394540009578AF /* SceneDelegate.swift in Sources */,
 			);
@@ -366,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,6 +585,7 @@
 		};
 		4254253A26394544009578AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F6FAB39C057592D9F487FB /* Pods-ijinlife_kaigai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,12 +599,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.table.ijinlife-kaigai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4254253B26394544009578AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A245A740DB549F0DBB3636CF /* Pods-ijinlife_kaigai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,12 +619,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.table.ijinlife-kaigai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		4254253D26394544009578AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3000AF254E48B3FA16066F /* Pods-ijinlife_kaigaiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +648,7 @@
 		};
 		4254253E26394544009578AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E1CCE68C74D86BE60E3D14 /* Pods-ijinlife_kaigaiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +671,7 @@
 		};
 		4254254026394544009578AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F33FF7140EA68A4CD25D10 /* Pods-ijinlife_kaigai-ijinlife_kaigaiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +692,7 @@
 		};
 		4254254126394544009578AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B279B4938D2DB419FD76D884 /* Pods-ijinlife_kaigai-ijinlife_kaigaiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
